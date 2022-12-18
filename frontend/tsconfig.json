@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "target": "ES2020",
+    "module": "NodeNext",
+    "lib": ["ESNext", "DOM"],
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "moduleResolution": "NodeNext",
+    "isolatedModules": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "public"
+  ],
+  "typescript.tsdk": "./node_modules/typescript/lib"
+  // "compileOnSave": true,
+}
